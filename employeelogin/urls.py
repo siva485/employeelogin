@@ -19,6 +19,6 @@ from loginapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+    path(r'^$', views.indexPage),
     path('index/', views.indexPage),
 ]
